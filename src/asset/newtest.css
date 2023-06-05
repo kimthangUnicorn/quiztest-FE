@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.formTest {
+  width: 80%;
+  /* background-color: #461a42; */
+  margin: 50px auto;
+  padding: 20px;
+}
+.formTest form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-bottom: 50px;
+}
+.question {
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+.question textarea {
+  margin-left: 15px;
+  font-size: 16px;
+  width: 70%;
+  height: 150px;
+  padding: 20px;
+  background-color: #461a42;
+  border: 5px solid #a076cc;
+  outline: none;
+  resize: none;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+.question textarea::placeholder {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.question #question_input:focus {
+  outline: none;
+  border: 5px solid #ccc;
+}
+.question #question_input:hover {
+  outline: none;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+}
+.answer ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.answer ul li div {
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.answer ul li div input {
+  display: flex;
+  color: white;
+}
+.answer ul li div textarea {
+  margin: 20px auto;
+  width: 90%;
+  height: 300px;
+  border: 5px solid transparent;
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+.answer ul li div textarea:focus {
+  outline: none;
+  border-radius: 5px;
+  border: 5px solid #ccc;
+  /* padding-top: 10px; */
+}
+.answer ul li div textarea:hover {
+  outline: none;
+  border-radius: 5px;
+  border: 5px solid #ccc;
+  /* padding-top: 10px; */
+}
+.answer ul li div textarea::placeholder {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.formTest .create {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+.formTest .create .initialization {
+  margin: 0 auto;
+  padding: 20px 50px;
+  background: #2d70ae;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  box-shadow: 0 0 5px 5px;
+  margin-top: 250px;
+}
+.formTest .create .initialization:hover {
+  background: #3679d1;
+}
+
+.fbutton {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 20px 60px;
+  color: #fff;
+  font-size: 16px;
+}
+.fbutton .btn-create {
+  padding: 20px 50px;
+  background: #009999;
+}
+.fbutton .btn-create:hover {
+  background: #009966;
+}
+.fbutton .btn-submit {
+  padding: 20px 50px;
+  background: #006666;
+}
+.fbutton .btn-submit:hover {
+  background: #006699;
+}
+
+

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(https://www.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
+    background-size: 100%;
+}
+.testquiz{
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 1.5;
+}
+.testquiz-content{
+    background-color:#ccc5c5;
+    border-radius: 10px;
+    line-height: 2;
+    padding: 20px 20px;
+    color: white;
+    margin-top: 20px;
+}
+.testquiz-content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.testquiz-content ul li{
+    border: 2px solid;
+    margin-top: 5px;
+    border-radius: 5px;
+    background: #a8a3a3;
+    padding: 8px 0;
+}
+
+.testquiz-content .restart{
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 60px;
+    background: red;
+}
+.testquiz-content .repeatTest{
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 60px;
+    margin-left: 20px;
+    background: lightcoral;
+}
+
+.table-answer{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-answe, td, th {
+    border: 1px solid;
+  }
+
+  .table-container {
+    display: flex;
+  }
+  
+  .table-answer {
+    width: 50%;
+  }
